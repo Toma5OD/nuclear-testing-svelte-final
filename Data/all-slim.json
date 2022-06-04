@@ -1,0 +1,96 @@
+[
+    {
+        "title": "America",
+        "geo": {
+            "lat": 33.2385,
+            "long": -106.3464
+        },
+        "variable": "northEast",
+        "pois": [
+            {
+                "name": "White Sands Missile Range, New Mexico",
+                "safeName": "White-Sands-Missile-Range,-New-Mexico",
+                "coordinates": {
+                    "geo": {
+                        "lat": "33.2385",
+                        "long": -106.3464
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/white-sands-missle-range_ufvh6g.jpg"
+            },
+            {
+                "name": "Nagasaki",
+                "safeName": "Nagasaki",
+                "coordinates": {
+                    "geo": {
+                        "lat": "32.7503",
+                        "long": 129.8779
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/nagasaki_ol74yi.jpg"
+            },
+            {
+                "name": "Hiroshima",
+                "safeName": "Hiroshima",
+                "coordinates": {
+                    "geo": {
+                        "lat": "34.3853",
+                        "long": 132.4553
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/hiroshima_uspemp.jpg"
+            }
+        ]
+    },
+    {
+        "title": "Russia",
+        "geo": {
+            "lat": 34.3853,
+            "long": 132.4553
+        },
+        "variable": "south",
+        "pois": [
+            {
+                "name": "Novaya Zemlya Island, C.I.S.",
+                "safeName": "Novaya-Zemlya-Island,-C.I.S.",
+                "coordinates": {
+                    "geo": {
+                        "lat": "73.61580064",
+                        "long": 60.7848987
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/novaya-zemlya.jpeg_skzgvm.jpg"
+            }
+        ]
+    },
+    {
+        "title": "France",
+        "geo": {
+            "lat": 32.7503,
+            "long": 129.8779
+        },
+        "variable": "east",
+        "pois": [
+            {
+                "name": "Reggane, Sahara Desert, Algeria",
+                "safeName": "Reggane,-Sahara-Desert,-Algeria",
+                "coordinates": {
+                    "geo": {
+                        "lat": "25.275963",
+                        "long": -1.520862
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/white-sands-missle-range_ufvh6g.jpg"
+            }
+        ]
+    },
+    {
+        "title": "China",
+        "geo": {
+            "lat": 25.275963,
+            "long": -1.520862
+        },
+        "variable": "midWest",
+        "pois": []
+    }
+]

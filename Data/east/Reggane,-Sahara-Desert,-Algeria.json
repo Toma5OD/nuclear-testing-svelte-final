@@ -1,0 +1,30 @@
+{
+    "name": "Reggane, Sahara Desert, Algeria",
+    "nameHtml": "<p><strong>Reggane, Sahara Desert, Algeria</strong></p>\n",
+    "safeName": "Reggane,-Sahara-Desert,-Algeria",
+    "coordinates": {
+        "irishGrid": {
+            "sheet": "Q",
+            "eastings": 977,
+            "northings": 486
+        },
+        "fullIrishGrid": {
+            "sheet": "",
+            "eastings": "97700",
+            "northings": "148600"
+        },
+        "tmcGrid": {
+            "sheet": "",
+            "eastings": "497672.657",
+            "northings": "648645.831"
+        },
+        "geo": {
+            "lat": "25.275963",
+            "long": -1.520862
+        }
+    },
+    "cursor": 71528,
+    "description": "<p><strong>Reggane, Sahara Desert, Algeria</strong> The Reggane series was a group of 4 atmospheric A-bomb nuclear tests conducted by France between February 1960 and April 1961, close to the end of the Algerian War. The bombs were detonated at the Saharan Military Experiments Centre near Reggane, French Algeria in the Sahara desert region of Tanezrouft, by the Nuclear Experiments Operational Group (GOEN), a unit of the Joint Special Weapons Command. The series saw the explosion of the first French nuclear weapon and was followed by the In Ekker series.</p>\n",
+    "costalZone": "**The Mid-West**",
+    "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/raggane_jwrnls.jpg"
+}

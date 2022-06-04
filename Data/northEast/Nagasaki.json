@@ -1,0 +1,30 @@
+{
+    "name": "Nagasaki",
+    "nameHtml": "<p><strong>Nagasaki</strong></p>\n",
+    "safeName": "Nagasaki",
+    "coordinates": {
+        "irishGrid": {
+            "sheet": "X",
+            "eastings": 966,
+            "northings": 996
+        },
+        "fullIrishGrid": {
+            "sheet": "",
+            "eastings": "296600",
+            "northings": "99600"
+        },
+        "tmcGrid": {
+            "sheet": "",
+            "eastings": "696529.441",
+            "northings": "599655.89"
+        },
+        "geo": {
+            "lat": "32.7503",
+            "long": 129.8779
+        }
+    },
+    "cursor": 25766,
+    "description": "<p><strong>Nagasaki</strong> The United States detonated an atomic bombs over the Japanese city of Nagasaki on the 9th of August 1945. The two bombings killed between 129000 and 226000 people. Most of whom were civilians. In the final year of World War II the Allies prepared for a costly invasion of the Japanese mainland. This undertaking was preceded by a conventional and firebombing campaign that devastated 64 Japanese cities. The war in Europe concluded when Germany surrendered on 8 May 1945 and the Allies turned their full attention to the Pacific War. By July 1945 the Allies Manhattan Project had produced two types of atomic bombs Fat Man a plutonium implosion-type nuclear weapon and Little Boy an enriched uranium gun-type fission weapon. The 509th Composite Group of the United States Army Air Forces was trained and equipped with the specialised Silverplate version of the Boeing B-29 Superfortress and deployed to Tinian in the Mariana Islands. The Allies called for the unconditional surrender of the Imperial Japanese armed forces in the Potsdam Declaration on 26 July 1945, the alternative being prompt and utter destruction. The Japanese government chose to ignore the ultimatum. The consent of the United Kingdom was obtained for the bombing as was required by the Quebec Agreement and orders were issued on 25 July by General Thomas Handy the acting Chief of Staff of the United States Army for atomic bombs to be used against Hiroshima Kokura Niigata and Nagasaki. These targets were chosen because they were large urban areas that also held militarily significant facilities. On 6 August a Little Boy was dropped on Hiroshima to which Prime Minister Suzuki reiterated the Japanese government's commitment to ignore the Allies demands and fight on. Three days later a Fat Man was dropped on Nagasaki. Over the next two to four months the effects of the atomic bombings killed between 90000 and 146000 people in Hiroshima and 39000 and 8000 people in Nagasaki roughly half occurred on the first day. For months afterward many people continued to die from the effects of burns radiation sickness and injuries compounded by illness and malnutrition. Though Hiroshima had a sizeable military garrison most of the dead were civilians. Japan surrendered to the Allies on 15 August six days after the Soviet Union's declaration of war and the bombing of Nagasaki. The Japanese government signed the instrument of surrender on 2 September effectively ending the war. Scholars have extensively studied the effects of the bombings on the social and political character of subsequent world history and popular culture and there is still much debate concerning the ethical and legal justification for the bombings. Supporters believe that the atomic bombings were necessary to bring a swift end to the war with minimal casualties critics dispute how the Japanese government was brought to surrender and highlight the moral and ethical implications of nuclear weapons and the deaths caused to civilians.</p>",
+    "costalZone": "**The South Coast**",
+    "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/nagasaki_ol74yi.jpg"
+}

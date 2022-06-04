@@ -1,0 +1,30 @@
+{
+    "name": "White Sands Missile Range, New Mexico",
+    "nameHtml": "<p><strong>White Sands Missile Range, New Mexico</strong></p>\n",
+    "safeName": "White-Sands-Missile-Range,-New-Mexic",
+    "coordinates": {
+        "irishGrid": {
+            "sheet": "C",
+            "eastings": 660,
+            "northings": 390
+        },
+        "fullIrishGrid": {
+            "sheet": "",
+            "eastings": "266000",
+            "northings": "439000"
+        },
+        "tmcGrid": {
+            "sheet": "",
+            "eastings": "665938.067",
+            "northings": "938982.474"
+        },
+        "geo": {
+            "lat": "33.2385",
+            "long": -106.3464
+        }
+    },
+    "cursor": 142,
+    "description": "<p><strong>White Sands Missile Range</strong> White Sands Missile Range (WSMR) is a military testing area operated by the United States Army. The range was originally established as the White Sands Proving Ground on 9 July 1945. White Sands National Park is located within the range.\n",
+    "costalZone": "**The North East**",
+    "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/white-sands-missle-range_ufvh6g.jpg"
+}

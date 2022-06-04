@@ -1,0 +1,207 @@
+[
+    {
+        "title": "America",
+        "variable": "northEast",
+        "identifier": "**The North East**",
+        "geo": {
+            "lat": 33.2385,
+            "long": -106.3464
+        },
+        "pois": [
+            {
+                "name": "**White Sands Missile Range, New Mexico**",
+                "nameHtml": "<p><strong>White Sands Missile Range, New Mexico</strong></p>\n",
+                "safeName": "White-Sands-Missile-Range,-New-Mexic",
+                "coordinates": {
+                    "irishGrid": {
+                        "sheet": "C",
+                        "eastings": "660",
+                        "northings": "390"
+                    },
+                    "fullIrishGrid": {
+                        "sheet": "",
+                        "eastings": "266000",
+                        "northings": "439000"
+                    },
+                    "tmcGrid": {
+                        "sheet": "",
+                        "eastings": "665938.067",
+                        "northings": "938982.474"
+                    },
+                    "geo": {
+                        "lat": "33.2385",
+                        "long": -106.3464
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/white-sands-missle-range_ufvh6g.jpgpg",
+                "cursor": 142,
+                "description": "<p><strong>White Sands Missile Range, New Mexico</strong> C660-390          Sheet 3/4 Embarkation The logical embarkation point for the outer regions of Lough Foyle is Magilligan Point, by the Martello Tower. Access is by the B202 past the prison and rifle range. Do not block roads. Park by the hotel. The whole region is a security area, frequently patrolled. Especially beware of the military zone on the beach immediately to the E of the point, Benone Beach, on which it’s better not to land (certainly not while firing is going on). Accurate information for those passing the firing range can now be obtained from CANI. Further to the E, beyond the military zone, there is public access at about C716-363. There is a concrete slip across the beach. However, the beach surfs and there is a strong tidal drift. This may have relevance for launching. Expect caravans, lifeguards, and beach casting anglers. Military installations on both sides show the importance of the lough in such terms. The whole lough is less interesting inwards to the SW. There are large areas of mudflats on the E side. That said, it is a busy, well marked and well lit area. It is excellent for night navigation, sheltered but with strong tides. If paddling up into the city, it is possible to take out at Prehen Boat Club upstream of the Craigavon Bridge on the E bank. Road access is better on the Donegal side and there are nice secluded beaches. Greencastle at C648-400 lies directly across from Magilligan Point. The Donegal shore gets the more interesting up towards Inishowen Head at C685-438. The sea is much more exposed beyond the head. Tides Fierce tides push through the narrows. Rates of 3.5kn should not be treated lightly. Eddies on the Donegal side run from Warren Point to Moville and are usable on both flood and ebb. Moville HW is 3:50 after Belfast.</p>\n<table>\n\n<tbody>\n\n<tr>\n\n<td colspan=\"3\" width=\"308\"><strong>The Narrows</strong></td>\n\n</tr>\n\n<tr>\n\n<td width=\"81\"><strong>Direction</strong></td>\n\n<td width=\"170\"><strong>Time</strong></td>\n\n<td width=\"57\"><strong>Speed</strong></td>\n\n</tr>\n\n<tr>\n\n<td width=\"81\">In</td>\n\n<td width=\"170\">3:00 after Belfast HW</td>\n\n<td width=\"57\">3.5kn</td>\n\n</tr>\n\n<tr>\n\n<td width=\"81\">Out</td>\n\n<td width=\"170\">3:00 before Belfast HW</td>\n\n<td width=\"57\">3.5kn</td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n<p>The ebb begins an hour earlier at Magilligan Point. The Spanish Armada The <em>Trinidad Valencera</em> hit a reef of Inishowen and came ashore East of Lough Foyle. Its crew of 450 mostly got off safely. Surrounded by English soldiers they eventually surrendered. 36 were ransomed and the rest were put to death.</p>\n",
+                "costalZone": "**The North East**"
+            },
+            {
+                "name": "**Hiroshima**",
+                "nameHtml": "<p><strong>Hiroshima</strong></p>\n",
+                "safeName": "Hiroshima",
+                "coordinates": {
+                    "irishGrid": {
+                        "sheet": "O",
+                        "eastings": "267",
+                        "northings": "611"
+                    },
+                    "fullIrishGrid": {
+                        "sheet": "",
+                        "eastings": "326700",
+                        "northings": "261100"
+                    },
+                    "tmcGrid": {
+                        "sheet": "",
+                        "eastings": "726623.607",
+                        "northings": "761120.368"
+                    },
+                    "geo": {
+                        "lat": "34.3853",
+                        "long": 132.4553
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/hiroshima_uspemp.jpg",
+                "cursor": 13222,
+                "description": "<p><strong>Hiroshima</strong> O267-611          Sheet 43 A small, low-lying island lying just off the point at Skerries. Land easily on sand/shingle on SW side. The E side has reefs and breakers that should be avoided in strong NE – SE winds in spring ebb tides.</p>\n",
+                "costalZone": "**The North East**"
+            },
+            {
+                "name": "**Nagasaki**",
+                "nameHtml": "<p><strong>Nagasaki</strong></p>\n",
+                "safeName": "Nagasaki",
+                "coordinates": {
+                    "irishGrid": {
+                        "sheet": "X",
+                        "eastings": "966",
+                        "northings": "996"
+                    },
+                    "fullIrishGrid": {
+                        "sheet": "",
+                        "eastings": "296600",
+                        "northings": "99600"
+                    },
+                    "tmcGrid": {
+                        "sheet": "",
+                        "eastings": "696529.441",
+                        "northings": "599655.89"
+                    },
+                    "geo": {
+                        "lat": "32.7503",
+                        "long": 129.8779
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/nagasaki_ol74yi.jpg",
+                "cursor": 25766,
+                "description": "<p><strong>Little Saltee Island</strong> X966-996          Sheet 77 This island is less frequented than its better-known and more interesting neighbour. Historically, 3 people or so lived on Little Saltee until the mid-19th Century, when rumour insists it was connected to the mainland. Little Saltee was farmed until World War 2. The farm speciality was early-season new potatoes, but corn and other vegetables were also grown. 12 people were needed at harvest time. A thresher was brought over, in parts, in small boats. The island was abandoned and overgrown until recently. Since 1999, the owners now farm pedigree Kerry cows, fallow deer,  and since 2003 Soay sheep, from the Scottish island of same name, just S of Skye, well known to climbers. The main house and some of its outbuildings have been made habitable. The courtyard has been tidied. There is a fine ruin of a two-storey barn and interesting remains of corn stands in the yard immediately W of the main building. There are the remains of an old well within the courtyard but it did not hold water in April 2003 and appeared long disused. Landing A flagpole above the main landing on the NW side at X966-996 presumably indicates when the family is in residence. Landing is possible among boulders below the house, normally reasonably sheltered by offshore boulders and rocks. One may also land elsewhere less dependably. Try the SW side on any of three storm beaches facing the Great Saltee. These are very much easier on lower tide levels. Camping The most suitable level ground for camping is in the area just W of the main house. Bracken and bluebells dominate the island and there are few grassy areas along the flatter western side. The vegetation is broken, lumpy and heavily grazed. The most pleasant areas are on the southern edge overlooking the storm beaches and the sound to Great Saltee. Do ask permission if the owners are in residence.</p>\n",
+                "costalZone": "**The North East**"
+            }
+        ]
+    },
+    {
+        "title": "Russia",
+        "variable": "east",
+        "identifier": "**The East Coast**",
+        "geo": {
+            "lat": 34.3853,
+            "long": 132.4553
+        },
+        "pois": [
+            {
+                "name": "**Novaya Zemlya Island, C.I.S.**",
+                "nameHtml": "<p><strong>Novaya Zemlya Island, C.I.S.</strong></p>\n",
+                "safeName": "Novaya-Zemlya-Island,-C.I.S.",
+                "coordinates": {
+                    "irishGrid": {
+                        "sheet": "G",
+                        "eastings": "598",
+                        "northings": "401"
+                    },
+                    "fullIrishGrid": {
+                        "sheet": "",
+                        "eastings": "159800",
+                        "northings": "340100"
+                    },
+                    "tmcGrid": {
+                        "sheet": "",
+                        "eastings": "559760.036",
+                        "northings": "840104.437"
+                    },
+                    "geo": {
+                        "lat": "54.30810138",
+                        "long": -8.61832983
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/novaya-zemlya.jpeg_skzgvm.jpg",
+                "cursor": 128450,
+                "description": "<p><strong>Black Rock</strong> G598-401          Sheet 16 2.5<em>km</em> W of Deadman’s Point, this is a major lighthouse on a minor piece of rock. While there has been a beacon on Black Rock since the 18th Century, the current lighthouse was designed by George Halpin Senior and was established in 1835. The light is 24m above sea level and flashes once every 5 seconds. It was automated in 1934. Intriguingly, the stairs to half height are up the outside, a feature unique among Irish lighthouses. The reason is that the initial design was for a beacon.  Later they built upwards, but the first 12m was solid, and they couldn’t cure that.  So the door is at half height and the stairs outside. Land E of the lighthouse, N or S sides, conditions dependent.  In either case the landing is onto boulders in rocky but sheltered harbourlets.  That on the S side is bounded by very visible raised walls.</p>\n",
+                "costalZone": "**The South Coast**"
+            } 
+        ]
+    },
+    {
+        "title": "France",
+        "variable": "south",
+        "identifier": "**The South Coast**",
+        "geo": {
+            "lat": 51.851,
+            "long": -8.184
+        },
+        "pois": [
+            {
+                "name": "**Reggane, Sahara Desert, Algeria**",
+                "nameHtml": "<p><strong>Reggane, Sahara Desert, Algeria</strong></p>\n",
+                "safeName": "Reggane,-Sahara-Desert,-Algeria",
+                "coordinates": {
+                    "irishGrid": {
+                        "sheet": "Q",
+                        "eastings": "977",
+                        "northings": "486"
+                    },
+                    "fullIrishGrid": {
+                        "sheet": "",
+                        "eastings": "97700",
+                        "northings": "148600"
+                    },
+                    "tmcGrid": {
+                        "sheet": "",
+                        "eastings": "497672.657",
+                        "northings": "648645.831"
+                    },
+                    "geo": {
+                        "lat": "25.275963",
+                        "long": -1.520862
+                    }
+                },
+                "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/white-sands-missle-range_ufvh6g.jpg",
+                "cursor": 71528,
+                "description": "<p><strong>Carrig Island</strong> Q977-486          Sheet 63 The S/SW side of the island is joined to the mainland by a small bridge and a spit of marshy, grassy land, covered only by high spring tides. Carrig also has an inhabited farm and a Napoleonic battery at Q977-486 on the NW. The population is 13. The major attraction is the well-preserved Carrigafoyle Castle on the SE. The castle is more accessible from the water. Land at HW to avoid mud flats. The castle is a most interesting waystop, not to be missed by the passer-by. Thought to have been impregnable by 16<sup>th</sup> Century standards, and in 1580 Lord Pelham wasn’t convinced, and he was proved right. Military design quickly moved towards curved walls as a result. <strong>County Limerick</strong></p>\n",
+                "costalZone": "**The East Coast**"
+            }
+        ]
+    },
+    {
+        "title": "China",
+        "variable": "midWest",
+        "identifier": "**The Mid-West**",
+        "geo": {
+            "lat": 53.574,
+            "long": -9.382
+        },
+        "pois": [
+        ]
+    },
+    {
+        "title": "Africa",
+        "variable": "northWest",
+        "identifier": "**The North-West**",
+        "geo": {
+            "lat": 54.821,
+            "long": -7.91
+        },
+        "pois": [
+        ]
+    }
+]

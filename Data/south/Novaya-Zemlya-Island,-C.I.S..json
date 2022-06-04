@@ -1,0 +1,30 @@
+{
+    "name": "Novaya Zemlya Island, C.I.S.",
+    "nameHtml": "<p><strong>Novaya Zemlya Island, C.I.S.</strong></p>\n",
+    "safeName": "Novaya-Zemlya-Island,-C.I.S.",
+    "coordinates": {
+        "irishGrid": {
+            "sheet": "G",
+            "eastings": 657,
+            "northings": 526
+        },
+        "fullIrishGrid": {
+            "sheet": "",
+            "eastings": "165700",
+            "northings": "352600"
+        },
+        "tmcGrid": {
+            "sheet": "",
+            "eastings": "565658.862",
+            "northings": "852601.736"
+        },
+        "geo": {
+            "lat": "73.61580064",
+            "long": 60.7848987
+        }
+    },
+    "cursor": 130572,
+    "description": "Novaya Zemlya was a sensitive military area during the Cold War, and parts of it are still used for airfields today. The Soviet Air Force maintained a presence at Rogachevo on the southern part of the southern island, on the westernmost peninsula (71.61787°N 52.47884°E). It was used primarily for interceptor aircraft operations, but also provided logistical support for the nearby nuclear test area. Novaya Zemlya was one of the two major nuclear test sites managed by the USSR; it was used for air drops and underground testing of the largest of Soviet nuclear bombs, in particular the October 30, 1961 air burst explosion of Tsar Bomba, the largest, most powerful nuclear weapon ever detonated.\n",
+    "costalZone": "**The North-West**",
+    "image": "https://res.cloudinary.com/dvw91nuuj/image/upload/v1654340317/images/novaya-zemlya.jpeg_skzgvm.jpg"
+}
