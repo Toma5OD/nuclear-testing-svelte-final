@@ -1,31 +1,15 @@
-import jwt from "jsonwebtoken";
+import { decodeTokenWith, signUserToken, userIdFromAuthHeader } from "./jwt-core.js";
 import dotenv from "dotenv";
 import { db } from "../models/db.js";
 
 const result = dotenv.config();
 
 export function createToken(user) {
-  const payload = {
-    id: user._id,
-    email: user.email,
-  };
-  const options = {
-    algorithm: "HS256",
-    expiresIn: "1h",
-  };
-  return jwt.sign(payload, process.env.cookie_password, options);
+  return signUserToken(user, process.env.cookie_password);
 }
 
 export function decodeToken(token) {
-  const userInfo = {};
-  try {
-    const decoded = jwt.verify(token, process.env.cookie_password);
-    userInfo.userId = decoded.id;
-    userInfo.email = decoded.email;
-  } catch (e) {
-    console.log(e.message);
-  }
-  return userInfo;
+  return decodeTokenWith(token, process.env.cookie_password);
 }
 
 export async function validate(decoded, request) {
@@ -37,14 +21,5 @@ export async function validate(decoded, request) {
 }
 
 export function getUserIdFromRequest(request) {
-  let userId = null;
-  try {
-    const { authorization } = request.headers;
-    const token = authorization.split(" ")[1];
-    const decodedToken = jwt.verify(token, "secretpasswordnotrevealedtoanyone");
-    userId = decodedToken.id;
-  } catch (e) {
-    userId = null;
-  }
-  return userId;
+  return userIdFromAuthHeader(request?.headers?.authorization, process.env.cookie_password);
 }

@@ -4,8 +4,8 @@
 </script>
 
 <div class="uk-card uk-card-default uk-card-body uk-padding-small">
-  <caption>GPS-compatible</caption>
   <table class="uk-table uk-table-divider uk-table-small">
+    <caption>GPS-compatible</caption>
     <tbody>
       <tr>
         <td>Latitude</td>

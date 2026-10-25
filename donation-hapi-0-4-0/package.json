@@ -8,36 +8,43 @@
     "start": "node src/server.js ",
     "dev": "./node_modules/.bin/nodemon src/server.js  --ignore 'src/models/json/*.json'",
     "lint": "./node_modules/.bin/eslint . --ext .js",
-    "test": "./node_modules/mocha/bin/mocha --ui tdd test/**/*.js"
+    "test": "./node_modules/mocha/bin/mocha --ui tdd test/**/*.js",
+    "test:security": "node --test test/security/*.test.mjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "^9.1.4",
     "@hapi/cookie": "^11.0.2",
-    "@hapi/hapi": "^20.2.1",
-    "@hapi/inert": "^6.0.5",
+    "@hapi/hapi": "21.4.11",
+    "@hapi/inert": "7.1.3",
     "@hapi/vision": "^6.1.0",
-    "cloudinary": "^1.30.0",
+    "cloudinary": "2.11.0",
     "dotenv": "^16.0.0",
     "handlebars": "^4.7.7",
     "hapi-auth-jwt2": "^10.2.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "9.0.3",
     "mais-mongoose-seeder": "^1.0.7",
     "mongoose": "^6.2.9"
   },
   "devDependencies": {
-    "axios": "^0.26.1",
+    "axios": "1.20.0",
     "chai": "^4.3.6",
     "eslint": "^8.12.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
-    "mocha": "^9.2.2",
-    "nodemon": "^2.0.15",
+    "mocha": "12.0.3",
+    "nodemon": "^3.0.0",
     "prettier": "^2.6.1"
   },
   "prettier": {
     "printWidth": 120
+  },
+  "engines": {
+    "node": ">=22.23.4 <23"
+  },
+  "overrides": {
+    "js-yaml@4": "4.3.2"
   }
 }
