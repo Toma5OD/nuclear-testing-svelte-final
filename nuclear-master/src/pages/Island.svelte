@@ -1,6 +1,7 @@
 <script lang="ts">
   import {getContext, onDestroy, onMount} from "svelte";
-  import {location} from "svelte-spa-router";
+  import { router } from "svelte-spa-router";
+  import { toStore } from "svelte/store";
   import type {Oileain} from "../services/oileain-api";
   import type {Island, IslandGroup} from "../services/oileain-types";
   import {generateMarkerSpec} from "../services/oileain-types";
@@ -17,24 +18,33 @@
   let islandGroup: IslandGroup[];
   let refresh = true;
 
+  const location = toStore(() => router.location);
+  let requestId = 0;
+  let destroyed = false;
+
+  async function showIsland(id: string, toggleRefresh: boolean) {
+    const current = ++requestId;
+    const found = await oileain.getIslandById(id);
+    if (destroyed || current !== requestId) return;
+    island = found;
+    marker = generateMarkerSpec(island);
+    if (toggleRefresh) refresh = !refresh;
+  }
+
   onMount(async () => {
     islandGroup = await oileain.getCoasts();
-    island = await oileain.getIslandById(encodeURI(params.wild));
-    marker = generateMarkerSpec(island);
+    if (!destroyed) await showIsland(encodeURI(params.wild), false);
   });
 
-  let unsubscribe = location.subscribe((value) => {
-    if (islandGroup) {
-      const safeName = value.substring(value.lastIndexOf("/") + 1);
-      oileain.getIslandById(safeName).then((foundIsland) => {
-        island = foundIsland;
-        marker = generateMarkerSpec(island);
-        refresh = !refresh;
-      });
-    }
+  const unsubscribe = location.subscribe((value) => {
+    if (!islandGroup || typeof value !== "string") return;
+    void showIsland(value.substring(value.lastIndexOf("/") + 1), true);
   });
 
-  onDestroy(unsubscribe);
+  onDestroy(() => {
+    destroyed = true;
+    unsubscribe();
+  });
 </script>
 
 <Header title="Nuclear Testing"/>
